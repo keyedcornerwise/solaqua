@@ -1,0 +1,124 @@
+$ind: -9999px;
+$lh: 2em;
+$zero: none;
+$nopad: 0;
+$mob: 100%;
+$mobh: 100vh;
+$menh: 100px;
+$minS: -67px;
+$plS: 67px;
+$ffOne: 'Nova Mono', monospace;
+$ffTwo: 'Share Tech Mono', monospace;
+$pyOne: 5px 0;
+$auto: auto;
+$abs: absolute;
+$b: bold;
+$wh: white;
+$f: 1rem;
+$fs: 1.5em;
+$fs2: 2em;
+$sa: space-around;
+$fl: flex;
+$ctr: center;
+$tP: 10px;
+$bgImg: url('../images/sa-bg.jpg');
+$bgSize: cover;
+$menuBG: hsl(24, 100%, 50%);
+$menuCol: hsl(360, 100%, 100%);
+$pt: 3px;
+
+body{
+  font-family: $ffOne;
+  font-size: $f;
+  line-height: $lh;
+}
+header h1{
+  text-indent: $ind;
+}
+header{
+  background-image: $bgImg;
+  background-size: $bgSize;
+}
+figcaption{
+  // font-family: $ffTwo;
+  font-size: $fs2;
+  padding-top: $pt;
+  text-decoration: $zero;
+  color: $menuBG;
+}
+ul{
+  list-style-type: $zero;
+  padding: $nopad;
+}
+ul.navbar-nav li{
+  padding: $pyOne;
+}
+a{
+  text-decoration: $zero;
+}
+img{
+  max-width: $mob;
+}
+nav.dp, nav.odp, .navbar{
+  background: $menuBG;
+}
+nav li{
+  align-content: space-around;
+}
+nav a{
+  font-weight: $b;
+  font-size: $f;
+  color: $wh;
+}
+.fas{
+  color: $menuCol;
+}
+header, main, section{
+  min-height: $mobh;
+}
+header.mh{
+  margin-top: $minS;
+}
+main, section{
+  // display: table
+}
+div.mh{
+  margin-top: 115px;
+}
+main .mn, section .mn, section .sup{
+  display: table-cell;
+  vertical-align: middle;
+}
+main.home, section.sup{
+  margin: $auto;
+  height: $mobh;
+}
+nav.dp{
+  position: $abs;
+  top: $auto;
+  bottom: $nopad;
+}
+iframe{
+  width: $mob;
+  border: $zero;
+  height: $mob;
+}
+table, input, textarea{
+  width: $mob;
+}
+input#sub{
+  margin-bottom: $tP;
+}
+.dp .nav-item, .odp .nav-item{
+  display: $fl;
+  align-items: $ctr;
+}
+td{
+  border-radius: $tP;
+}
+
+@media screen and (max-width: 769px){
+  main.home, section.sup{
+    height: auto;
+  }
+}

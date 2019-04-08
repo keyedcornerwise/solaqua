@@ -1,0 +1,115 @@
+body {
+  font-family: "Nova Mono", monospace;
+  font-size: 1rem;
+  line-height: 2em;
+}
+
+header h1 {
+  text-indent: -9999px;
+}
+
+header {
+  background-image: url("../images/sa-bg.jpg");
+  background-size: cover;
+}
+
+figcaption {
+  font-size: 2em;
+  padding-top: 3px;
+  text-decoration: none;
+  color: #ff6600;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.navbar-nav li {
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav.dp, nav.odp, .navbar {
+  background: #ff6600;
+}
+
+nav li {
+  align-content: space-around;
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+
+.fas {
+  color: white;
+}
+
+header, main, section {
+  min-height: 100vh;
+}
+
+header.mh {
+  margin-top: -67px;
+}
+
+div.mh {
+  margin-top: 115px;
+}
+
+main .mn, section .mn, section .sup {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+main.home, section.sup {
+  margin: auto;
+  height: 100vh;
+}
+
+nav.dp {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+}
+
+iframe {
+  width: 100%;
+  border: none;
+  height: 100%;
+}
+
+table, input, textarea {
+  width: 100%;
+}
+
+input#sub {
+  margin-bottom: 10px;
+}
+
+.dp .nav-item, .odp .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+td {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 769px) {
+  main.home, section.sup {
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

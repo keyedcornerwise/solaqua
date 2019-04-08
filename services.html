@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link rel="icon" type="image/png" href="images/sola-aqua-fav.png" sizes="16x16">
+    <!-- <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32"> -->
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/bootstrap.min.css.map" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+    <title>SolAqua - </title>
+  </head>
+  <body>
+    <nav class="navbar zindex-stick sticky-top shadow d-md-none">
+      <a class="navbar-brand" href="tel:00353212345678"><i class="fas fa-phone fa-2x"></i></a>
+      <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#saMenu" aria-controls="saMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars fa-2x"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="saMenu">
+        <ul class="navbar-nav mr-auto text-center bg-dark">
+          <li>
+            <ul>
+              <li class="nav-item active"><a class="nav-link active" href="index.html">Home</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" href="about.html">About</a></li> -->
+              <li class="nav-item">
+                <a class="nav-link toggler-example" data-toggle="collapse" data-target="#dpS" aria-controls="dpS" aria-expanded="false" aria-label="Toggle navigation" href="services.html">Services</a>
+                <div class="collapse navbar-collapse" id="dpS">
+                  <ul class="navbar-nav mr-auto dropdown-menu">
+                    <li><a class="dropdown-item" href="services.html#sPV">Solar PV</a></li>
+                    <li><a class="dropdown-item" href="services.html#sT">Solar Thermals</a></li>
+                    <li><a class="dropdown-item" href="services.html#hP">Heat Pumps</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link toggler-example" data-toggle="collapse" data-target="#sP" aria-controls="sP" aria-expanded="false" aria-label="Toggle navigation" href="services.html">Solar Panel</a>
+                <div class="collapse navbar-collapse" id="sP">
+                  <ul class="navbar-nav mr-auto dropdown-menu">
+                    <li><a class="dropdown-item" href="electricity.html">Solar Electricity</a></li>
+                    <li><a class="dropdown-item" href="hot-water.html">Solar Hot Water</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="odp col-sm-12 navbar fixed-top d-none d-md-block">
+      <ul class="nav d-flex justify-content-center justify-content-around">
+        <li class="nav-item col-sm-2"><a class="nav-link active" href="index.html"><img src="images/sola-aqua.png" alt="SolAqua Limited Logo" title="SolAqua Limited" /></a></li>
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <!-- <li class="nav-item"><a class="nav-link" href="about.html">About</a></li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="services.html" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="services.html#sPV">Solar PV</a>
+            <a class="dropdown-item" href="services.html#sT">Solar Thermals</a>
+            <a class="dropdown-item" href="services.html#hP">Heat Pumps</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="solar.html" role="button" aria-haspopup="true" aria-expanded="false">Solar Panel</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="electricity.html">Solar Electricity</a></li>
+            <li><a class="dropdown-item" href="hot-water.html">Solar Hot Water</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="d-md-none px-5 d-flex align-items-center">
+      <a href="#"><img src="images/sola-aqua.png" alt="SolAqua Limited Logo" title="SolAqua Limited" /></a>
+    </header>
+    <main class="home d-table text-center">
+      <div class="mn container">
+        <div class="card-deck">
+          <h2 class="col-sm-12 py-4 text-center nav-tabs">Services</h2>
+          <div class="my-3 col-sm-12 col-md-4">
+            <figure class="card-img-top">
+              <picture>
+                <source srcset="../images/services/pv.jpg" media="(min-width:769px)">
+                <img src="../images/services/pv.jpg" alt="" title="" />
+              </picture>
+              <figcaption class="text-center py-3" id="sPV">Solar PV</figcaption>
+            </figure>
+            <div class="card-body">
+              <p>The Solar Photovoltaic PV panels transform daylight directly into electricity and is a rapidly expanding market worldwide. The panels produce DC voltage during daylight hours, this is converted immediately to normal ESB compatible voltage.</p>
+            </div>
+          </div>
+          <div class="my-3 col-sm-12 col-md-4">
+            <figure class="card-img-top">
+              <picture>
+                <source srcset="../images/services/thermal.jpg" media="(min-width:769px)">
+                <img src="../images/services/thermal.jpg" alt="" title="" />
+              </picture>
+              <figcaption class="text-center py-3" id="sT">Solar Thermals</figcaption>
+            </figure>
+            <div class="card-body">
+              <p>Cork’s Choice for Solar Panel Installation, Clean Energy Ireland, has emerged as Cork’s top choices when it comes to solar thermal and solar energy solutions. Based near Ballincollig, Clean Energy Ireland, can install a solar panel water heating system for you.</p>
+            </div>
+          </div>
+          <div class="my-3 col-sm-12 col-md-4">
+            <figure class="card-img-top">
+              <picture>
+                <source srcset="../images/services/pumps.jpg" media="(min-width:769px)">
+                <img src="../images/services/pumps.jpg" alt="" title="" />
+              </picture>
+              <figcaption class="text-center py-3" id="hP">Heat Pumps</figcaption>
+            </figure>
+            <div class="card-body">
+              <p>A heat pump is a device that draws heat from the outside and transfers it into your house to provide space heating and domestic hot water.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <hr>
+    <section class="sup text-center d-table">
+      <div class="mn container">
+        <h2 class="col-sm-12 py-4 nav-tabs">Suppliers</h2>
+        <p>Suntask (formerly known as Shentai) is an experienced and respected leader in the field of solar energy and with increased Irish awareness of green fuel alternatives there was no better time or place for the unveiling. Fuelled by a passion for conservation and a commitment to quality, Suntask are constantly conducting research and developing more efficient ways to convert solar energy to home heating. Despite a consistent and strong level of solar catchment, solar power has been slow to develop in Ireland. Mr. Yu Hai Qiang, Director & Founder of Suntask, decided it was time to change this by introducing Irish customers to the quality, peace-of-mind and incredible value that solar hot water can offer to homes & businesses alike.</p>
+        <p>Choosing the same path as the parent company, SolarAqua Ireland will strive to make Ireland a greener country through solar power. This core mission shall be supported by Suntask’s values – a commitment to quality products, a friendly one-to-one customer relationship and a dream of a sustainable world for future generations.</p>
+      </div>
+    </section>
+    <footer class="text-center p-5 border-top">
+      <div class="container">
+        <div class="row">
+          <ul class="col-sm-12 col-md-6">
+            <li><a href="">Terms &amp; Condition</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Cookies</a></li>
+          </ul>
+          <ul class="col-sm-12 col-md-6 nav d-flex justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="https://www.twitter.com/"><i class="fab fa-twitter fa-2x"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+  </body>
+</html>
