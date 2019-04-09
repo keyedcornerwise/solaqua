@@ -26,6 +26,7 @@ $bgSize: cover;
 $menuBG: hsl(24, 100%, 50%);
 $menuCol: hsl(360, 100%, 100%);
 $pt: 3px;
+$ftbg: #333;
 
 body{
   font-family: $ffOne;
@@ -115,6 +116,10 @@ input#sub{
 }
 td{
   border-radius: $tP;
+}
+footer{
+  background: $ftbg;
+  margin-top: $tP;
 }
 
 @media screen and (max-width: 769px){
